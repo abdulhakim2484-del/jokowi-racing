@@ -1,0 +1,151 @@
+# REVISI PROMPT GAME: LEGEND OF ELDORIA — FREE MOVEMENT SYSTEM
+
+Buat game Action Adventure RPG terinspirasi Guardian Tales dengan dunia luas, banyak musuh, boss, quest, treasure chest quiz PC, dan ending cerita.
+
+## 1. FREE MOVEMENT (WAJIB)
+
+Player dan semua musuh harus dapat bergerak bebas secara real-time di dalam dunia game.
+
+### Player
+- Player dapat bergerak bebas ke segala arah menggunakan WASD.
+- Gerakan diagonal harus berfungsi.
+- Player tidak terkunci pada jalur tertentu.
+- Player bisa berlari, berhenti, berbelok, dan mengubah arah kapan saja.
+- Player dapat bergerak sambil menyerang.
+- Player dapat melakukan dash ke segala arah.
+- Player dapat menjelajahi seluruh map yang terbuka.
+- Player dapat mendekati atau menjauhi musuh dengan bebas.
+- Gerakan harus responsif dan tidak kaku.
+- Kamera mengikuti player secara dinamis.
+
+### Musuh
+Semua musuh harus mempunyai AI dan movement system yang aktif.
+
+- Musuh dapat berjalan bebas di area mereka.
+- Musuh dapat mengejar player ketika mendeteksi player.
+- Musuh dapat mengubah arah gerakan secara dinamis.
+- Musuh dapat menyerang sambil bergerak jika jenis serangannya memungkinkan.
+- Musuh dapat menghindari serangan player.
+- Musuh dapat melakukan patrol.
+- Musuh dapat berpindah posisi saat bertarung.
+- Musuh dapat mengepung player.
+- Musuh dapat menyerang dari berbagai arah.
+- Musuh tidak boleh hanya diam dan menunggu player menyerang.
+
+### Boss
+Boss harus dapat bergerak bebas di arena pertarungan.
+
+- Boss dapat mengejar player.
+- Boss dapat berlari atau melompat menuju player.
+- Boss dapat melakukan charge attack.
+- Boss dapat berpindah posisi.
+- Boss dapat melakukan serangan area.
+- Boss dapat mengubah arah serangan berdasarkan posisi player.
+- Boss memiliki AI dengan beberapa fase pertarungan.
+
+## 2. SISTEM MOVEMENT DAN COMBAT
+
+Gunakan sistem movement yang smooth dan responsif.
+
+- WASD untuk movement.
+- Mouse untuk menentukan arah serangan.
+- Klik kiri untuk basic attack.
+- Q dan E untuk skill.
+- Space untuk dash.
+- Player dapat bergerak saat menggunakan skill tertentu.
+- Animasi berjalan mengikuti arah gerakan.
+- Animasi serangan mengikuti arah target.
+- Hitbox serangan mengikuti posisi karakter.
+- Tambahkan knockback pada musuh yang terkena serangan.
+- Tambahkan collision agar karakter tidak menembus dinding.
+- Musuh dapat bertabrakan dan menghindari penumpukan karakter yang tidak wajar.
+
+## 3. MAP DAN EKSPLORASI
+
+Buat map luas yang memungkinkan player dan musuh bergerak bebas.
+
+- Player dapat menjelajahi hutan, desa, dungeon, gurun, gunung, dan benteng.
+- Musuh dapat bergerak di seluruh area yang dapat mereka akses.
+- Tidak menggunakan movement berbasis grid.
+- Tidak menggunakan sistem gerakan yang hanya mengikuti jalur tetap.
+- Tidak membuat player terkunci dalam arena kecil.
+- Gunakan collision dan navigasi AI.
+- Tambahkan area terbuka yang luas untuk pertarungan melawan puluhan musuh.
+
+## 4. SISTEM MUSUH
+
+Buat minimal 15 jenis musuh dengan movement dan AI berbeda.
+
+Contoh:
+- Slime bergerak melompat.
+- Goblin mengejar player dan menyerang menggunakan pedang.
+- Archer menjaga jarak dan bergerak mundur ketika player mendekat.
+- Mage bergerak sambil meluncurkan magic projectile.
+- Assassin bergerak cepat dan melakukan dash.
+- Orc melakukan charge attack.
+- Flying Demon dapat bergerak di udara.
+- Dark Knight melakukan dodge dan counterattack.
+
+Setiap musuh harus mempunyai:
+- Movement.
+- AI.
+- Patrol.
+- Detection.
+- Chase.
+- Attack.
+- Dodge jika sesuai.
+- Hit reaction.
+- Death animation.
+
+## 5. SISTEM PERTARUNGAN DINAMIS
+
+Buat combat yang berlangsung secara real-time.
+
+Player dan musuh dapat bergerak bebas selama pertarungan.
+
+- Player dapat menyerang sambil bergerak.
+- Musuh dapat mengejar player.
+- Musuh dapat menyerang dari berbagai arah.
+- Serangan dapat mengenai banyak musuh.
+- Boss dapat melakukan serangan yang mengejar posisi player.
+- Player dapat menghindari serangan dengan dash.
+- Tambahkan efek slash, sparks, explosion, magic, dan shockwave.
+- Tambahkan damage numbers dan HP bar.
+
+## 6. FITUR LAIN TETAP ADA
+
+Pertahankan seluruh fitur sebelumnya:
+- Map luas.
+- Banyak musuh.
+- 7 boss utama.
+- Quest system.
+- Treasure chest berisi senjata.
+- PC quiz dengan 4 pilihan.
+- Jika salah, chest meledak setelah 3 detik.
+- Player dapat menghindari ledakan.
+- Inventory dan equipment.
+- Sistem level dan EXP.
+- Dungeon.
+- NPC.
+- Main quest.
+- Side quest.
+- Final boss.
+- Ending cerita.
+- Save system.
+
+## 7. INSTRUKSI IMPLEMENTASI
+
+Jangan membuat karakter yang hanya diam atau bergerak menggunakan animasi tanpa perpindahan posisi sebenarnya.
+
+Semua gerakan harus benar-benar mengubah koordinat karakter di dunia game.
+
+Gunakan:
+- Real-time movement.
+- Smooth movement.
+- Collision detection.
+- Enemy AI.
+- Pathfinding atau steering behavior.
+- Dynamic combat.
+- Camera follow.
+
+**HASIL AKHIR:** Game Action RPG dengan player yang bebas bergerak ke segala arah, musuh yang aktif bergerak dan mengejar player, pertarungan dinamis, boss yang bergerak dan menyerang secara real-time, serta dunia luas yang bisa dijelajahi.
